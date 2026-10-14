@@ -1,0 +1,89 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:33dc8ec9-4281-5c63-8a6c-d76e89dc0163",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T17:08:39Z",
+  "component": {
+   "type": "application",
+   "name": "KNOWLEDGE",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/KNOWLEDGE@83b357604d34",
+   "purl": "pkg:generic/anticloud/KNOWLEDGE@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@vuepress/plugin-active-header-links",
+   "version": "^1.2.0",
+   "purl": "pkg:npm/@vuepress/plugin-active-header-links@^1.2.0",
+   "bom-ref": "npm/@vuepress/plugin-active-header-links@^1.2.0"
+  },
+  {
+   "type": "library",
+   "name": "@vuepress/plugin-back-to-top",
+   "version": "^1.2.0",
+   "purl": "pkg:npm/@vuepress/plugin-back-to-top@^1.2.0",
+   "bom-ref": "npm/@vuepress/plugin-back-to-top@^1.2.0"
+  },
+  {
+   "type": "library",
+   "name": "@vuepress/plugin-medium-zoom",
+   "version": "^1.2.0",
+   "purl": "pkg:npm/@vuepress/plugin-medium-zoom@^1.2.0",
+   "bom-ref": "npm/@vuepress/plugin-medium-zoom@^1.2.0"
+  },
+  {
+   "type": "library",
+   "name": "@vuepress/plugin-nprogress",
+   "version": "^1.2.0",
+   "purl": "pkg:npm/@vuepress/plugin-nprogress@^1.2.0",
+   "bom-ref": "npm/@vuepress/plugin-nprogress@^1.2.0"
+  },
+  {
+   "type": "library",
+   "name": "@vuepress/plugin-pwa",
+   "version": "^1.2.0",
+   "purl": "pkg:npm/@vuepress/plugin-pwa@^1.2.0",
+   "bom-ref": "npm/@vuepress/plugin-pwa@^1.2.0"
+  },
+  {
+   "type": "library",
+   "name": "moment",
+   "version": "^2.24.0",
+   "purl": "pkg:npm/moment@^2.24.0",
+   "bom-ref": "npm/moment@^2.24.0"
+  },
+  {
+   "type": "library",
+   "name": "vuepress",
+   "version": "^1.5.4",
+   "purl": "pkg:npm/vuepress@^1.5.4",
+   "bom-ref": "npm/vuepress@^1.5.4"
+  }
+ ],
+ "sha_unverified": true
+}
